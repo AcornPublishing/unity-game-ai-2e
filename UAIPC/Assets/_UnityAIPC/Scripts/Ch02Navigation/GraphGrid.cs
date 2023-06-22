@@ -25,7 +25,7 @@ public class GraphGrid : Graph
     public float defaultCost = 1f;
     [Range(0, Mathf.Infinity)]
     public float maximumCost = Mathf.Infinity;
-    string mapsDir = "Maps";
+    string mapsDir = "_UnityAIPC/Maps";
     int numCols;
     int numRows;
     GameObject[] vertexObjs;
